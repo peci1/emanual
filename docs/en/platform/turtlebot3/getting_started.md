@@ -24,11 +24,18 @@ First of all, collect information from the [Overview][overview], [Notices][notic
 ![](/assets/images/platform/turtlebot3/hardware_setup/turtlebot3_models_800.png)
 
 ## [First steps for using TurtleBot3](#first-steps-for-using-turtlebot3)
+**WARNING**: Make sure to follow either of **Setup** guide. Otherwise, it may cause unexpected issue. 
+{: .notice--warning}
 When you have enough understanding about TurtleBot3 from above step, here are the software and hardware setups. Be aware that it is a time-saver to set up the SBC and your PC first, rather than assembling the robot. It is recommended to proceed in the following order.
 
-1. [PC Setup][pc_setup]: Install Linux, ROS and application software for TurtleBot3 on your **Remote PC**.
-2. [SBC Setup][sbc_setup]: Install Linux, ROS and hardware related software to control the TurtleBot3 on your **TurtleBot PC**.
-3. [OpenCR Setup][opencr_setup]: Upload latest firmware of TurtleBot3 to OpenCR embedded board.
+1. PC Setup: Install Linux, ROS and application software for TurtleBot3 on your **Remote PC**.
+  - [ROS][pc_setup_ros] 
+  - [ROS 2][pc_setup_ros2] 
+2. SBC Setup: Install Linux, ROS and hardware related software to control the TurtleBot3 on your **TurtleBot PC**.
+  - [ROS][sbc_setup_ros]
+  - [ROS2][sbc_setup_ros2]
+3. OpenCR Setup: Upload latest firmware of TurtleBot3 to OpenCR embedded board.
+  - [ROS][opencr_setup]
 4. [Hardware Setup][hardware_setup]: TurtleBots3 is delivered as unassembled parts in the box. Follow the instructions to assemble TurtleBot3. Prepared SBC and OpenCR will be mounted on the robot.
 
 If you want to use other products instead of SBCs and Sensors included in the TurtleBot3 package, please refer to the [Compatible Devices][compatible_devices] page. 
@@ -87,8 +94,10 @@ The [Appendixes][appendixes] contains information on components used in TurtleBo
 [getting_started]: /docs/en/platform/turtlebot3/getting_started/
 
 [setup]: /docs/en/platform/turtlebot3/setup/
-[pc_setup]: /docs/en/platform/turtlebot3/pc_setup/
-[sbc_setup]: /docs/en/platform/turtlebot3/sbc_setup/
+[pc_setup_ros]: /docs/en/platform/turtlebot3/pc_setup/
+[pc_setup_ros2]: /docs/en/platform/turtlebot3/ros2_setup/
+[sbc_setup_ros]: /docs/en/platform/turtlebot3/sbc_setup/
+[sbc_setup_ros2]: /docs/en/platform/turtlebot3/ros2_setup/
 [opencr_setup]: /docs/en/platform/turtlebot3/opencr_setup/
 [hardware_setup]: /docs/en/platform/turtlebot3/hardware_setup/
 [compatible_devices]: /docs/en/platform/turtlebot3/compatible_devices/
