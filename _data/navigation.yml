@@ -15710,7 +15710,7 @@ turtlebot3:
         url: /platform/turtlebot3/simulation/#ros-packages-for-gazebo
       - title: "Standalone Gazebo Plugin"
         url: /platform/turtlebot3/simulation/#standalone-gazebo-plugin
-  - title: "Manipulation"
+  - title: "[ROS] Manipulation"
     url: /platform/turtlebot3/manipulation/#manipulation
     children:
     - title: "TurtleBot3 with OpenMANIPULATOR"
@@ -15733,7 +15733,7 @@ turtlebot3:
       url: /platform/turtlebot3/manipulation/#simulation
     - title: "Pick and Place"
       url: /platform/turtlebot3/manipulation/#pick-and-place
-  - title: "Autonomous Driving"
+  - title: "[ROS] Autonomous Driving"
     url: /platform/turtlebot3/autonomous_driving/#autonomous-driving
     children:
     - title: "TurtleBot3 Auto"
@@ -15761,7 +15761,7 @@ turtlebot3:
       url: /platform/turtlebot3/autonomous_driving/#autorace-rbiz-challenge-2018
     - title: "AutoRace with Gazebo"
       url: /platform/turtlebot3/autonomous_driving/#autorace-with-gazebo
-  - title: "Machine Learning"
+  - title: "[ROS] Machine Learning"
     url: /platform/turtlebot3/machine_learning/#machine-learning
     children:
     - title: "Installation"

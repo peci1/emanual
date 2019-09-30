@@ -33,7 +33,7 @@ When you have enough understanding about TurtleBot3 from above step, here are th
   - [ROS 2][pc_setup_ros2] 
 2. SBC Setup: Install Linux, ROS and hardware related software to control the TurtleBot3 on your **TurtleBot PC**.
   - [ROS][sbc_setup_ros]
-  - [ROS2][sbc_setup_ros2]
+  - [ROS 2][sbc_setup_ros2]
 3. OpenCR Setup: Upload latest firmware of TurtleBot3 to OpenCR embedded board.
   - [ROS][opencr_setup]
 4. [Hardware Setup][hardware_setup]: TurtleBots3 is delivered as unassembled parts in the box. Follow the instructions to assemble TurtleBot3. Prepared SBC and OpenCR will be mounted on the robot.
