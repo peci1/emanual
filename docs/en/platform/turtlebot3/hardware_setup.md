@@ -29,7 +29,7 @@ page_number: 12
 TurtleBot3 has three different models: `Burger`, `Waffle` and `Waffle Pi`. The following list shows their components. The big differences between three models are the Motor, the SBC (Single Board Computer) and the Sensors. The TurtleBot3 Waffle model is discontinued due to discontinuation of Intel® Joule™.
 
 |                        | Part Name                       | Burger | Waffle | Waffle Pi |
-| --------------------   | --------------------            | ----   | ----   | -------   |
+|:-----------------------|:--------------------------------|:-------|:-------|:----------|
 | **Chassis Parts**      | Waffle Plate                    | 8      | 24     | 24        |
 | .                      | Plate Support M3x35mm           | 4      | 12     | 12        |
 | .                      | Plate Support M3x45mm           | 10     | 10     | 10        |

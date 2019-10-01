@@ -15779,6 +15779,17 @@ turtlebot3:
       url: /platform/turtlebot3/ros2_setup/#sbc-setup
     - title: "OpenCR Setup"
       url: /platform/turtlebot3/ros2_setup/#opencr-setup
+    - title: "Hardware Setup"
+      url: /platform/turtlebot3/ros2_setup/#hardware-setup
+      children:
+      - title: "Part List"
+        url: /platform/turtlebot3/ros2_setup/#part-list
+      - title: "Assembly Manual"
+        url: /platform/turtlebot3/ros2_setup/#assembly-manual
+      - title: "Assembly Video"
+        url: /platform/turtlebot3/ros2_setup/#assembly-video
+      - title: "Open Source Hardware"
+        url: /platform/turtlebot3/ros2_setup/#open-source-hardware  
   - title: "[ROS 2] Bringup"
     url: /platform/turtlebot3/ros2_bringup/#bringup
   - title: "[ROS 2] Basic Operation"
