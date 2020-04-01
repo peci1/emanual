@@ -404,7 +404,7 @@ Print a checkerboard on A4 size paper. The checkerboard is used for Intrinsic Ca
    ```
       
 
-#### How to operate
+#### [How to operate](#how-to-operate)
 - 제어 명령어    
   - 미션  
     - 준비  
@@ -513,4 +513,24 @@ demo에서 제공하는 각각의 물체를 옮기는 방법은 아래와 같다
   ![demo_06](/assets/images/platform/turtlebot3/home_service_challenge/home_service_challenge_demo_06.png)
 
 ### [Simulation](#simulation)
-#### 
+1. simulation(gazebo) 실행  
+   [Remote PC] 
+   ```
+   $ roslaunch turtlebot3_home_service_challenge_simulation competition.launch
+   ```
+   ![gazebo](/assets/images/platform/turtlebot3/home_service_challenge/simulation_00.png)  
+
+2. simulation용 home service challenge demo 실행  
+   [Remote PC] 
+   ```
+   $ roslaunch turtlebot3_home_service_challenge_tools turtlebot3_home_service_challenge_demo_simulation.launch
+   ```
+   ![simulation_rviz](/assets/images/platform/turtlebot3/home_service_challenge/simulation_rviz_01.png)  
+
+3. home_service_challenge_manager  
+   미션 수행을 위한 manager 실행  
+   [Remote PC] 
+   ```bash
+   $ roslaunch turtlebot3_home_service_challenge_manager manager.launch
+   ```
+4. 제어 명령어 입력
